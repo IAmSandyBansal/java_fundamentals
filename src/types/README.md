@@ -19,7 +19,7 @@ Java has two main categories of data types:
 
 ## Primitive Data Types
 
-Primitive data types hold simple values and are stored directly in memory.
+Primitive data types hold actual values and are stored directly in memory.
 
 | Type    | Size   | Range                                                                         | Default Value  |
 |---------|--------|-------------------------------------------------------------------------------|----------------|
@@ -45,3 +45,5 @@ Some of the main reference types in Java.
 - Strings
 - Interfaces
 - Enums
+
+![Reference Types](../../images/reference-types.svg)
