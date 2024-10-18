@@ -47,3 +47,31 @@ Some of the main reference types in Java.
 - Enums
 
 ![Reference Types](../../images/reference-types.svg)
+
+# Strings
+ 
+Strings is actually an object and part of the **reference types** category. String in Java is an object of the `java.lang.String` class.
+
+```java
+String myName = "Vini";
+```
+
+This creates a String object containing "Vini" and stores a reference to this object in the variable `myName`.
+When you create a String, Java does not store the actual characters directly in the variable (like with primitive types such as int or char).
+Instead, it stores a **reference** (a memory address) pointing to where the String object is stored in memory.
+
+If you do something like:
+
+```java
+String anotherName = name;
+```
+
+Now, anotherName and myName both hold references to the same String object in memory.
+
+## String's Immutability
+
+String objects are **immutable**, meaning that once a String object is created, its value cannot be changed. 
+Any operation that seems to modify a String actually results in the creation of a new String object.
+
+When you assign a new value to a String variable, the reference is updated to point to a new 
+String object rather than modifying the existing object.
